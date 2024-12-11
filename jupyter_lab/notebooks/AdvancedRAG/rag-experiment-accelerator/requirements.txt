@@ -37,3 +37,7 @@ tiktoken==0.7.0
 tqdm==4.66.4
 umap-learn==0.5.6
 unstructured==0.14.8
+joblib>=1.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
