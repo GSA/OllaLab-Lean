@@ -46,3 +46,4 @@ xmlschema
 
 # Add other necessary packages
 # the packages should be identical to those for jupyter_lab
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
