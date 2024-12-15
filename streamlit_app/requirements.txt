@@ -46,3 +46,6 @@ xmlschema
 
 # Add other necessary packages
 # the packages should be identical to those for jupyter_lab
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
