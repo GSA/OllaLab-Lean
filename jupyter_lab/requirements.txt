@@ -20,3 +20,4 @@ openpyxl
 #cryptography
 #spacy
 # Add other necessary packages
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
